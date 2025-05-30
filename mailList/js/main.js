@@ -4,6 +4,16 @@
 // !  Non è necessario provvedere alla validazione delle email
 
 // TODO  Creo una lista di email degli invitati
+
+const inviteList = [
+  "gianni@boolean.com",
+  "@boolean.com",
+  "@boolean.com",
+  "@boolean.com",
+  "@boolean.com",
+  "@boolean.com",
+];
+
 // todo creo un prompt che chieda agli invitati di inserire la propria e-mail
 // todo creo un ciclo for che controlli se l'e-mail inserita è presente nella lista da me creata
 // todo se l'email è presente, stampa un messaggio in console e un alert
