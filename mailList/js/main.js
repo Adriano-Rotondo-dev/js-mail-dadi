@@ -30,7 +30,7 @@ for (i = 0; i < inviteList.length; i++) {
     // controllo se l'userMail trova riscontro negli elementi dell'inviteList
 // todo: se l'email è presente, stampa un messaggio in console e un alert
     inList = true // se lo trova, inList diventa true
-    console.log("found in inviteList") // quindi stampa il messaggio di conferma
+    console.log('found in inviteList') // quindi stampa il messaggio di conferma
     alert("Sei in lista!");
     break; // chiudo il ciclo
   }
@@ -38,6 +38,6 @@ for (i = 0; i < inviteList.length; i++) {
 // ? se non è presente stampa un messaggio differente
 if (inList == false) {
   // se non trova riscontro inList = False
-  console.log("not found in inviteList")
-  alert("Non sei in lista, ci dispiace!") // stampo il messaggio di failure
+  console.log('not found in inviteList')
+  alert('Non sei in lista, ci dispiace!') // stampo il messaggio di failure
 }
