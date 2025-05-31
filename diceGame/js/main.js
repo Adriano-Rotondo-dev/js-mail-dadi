@@ -7,10 +7,11 @@ alert(
   "Benvenuto! Pronto a giocare? \nTiriamo un D6! 🎲 \nChi ottiene il punteggio più alto vince!"
 );
 
-// * credo un let userDiceRollche parta da 1 fino ad un massimo di 6 che generi solo numeri interi
+// * creo un let userDiceRoll che parta da 1 fino ad un massimo di 6 che generi solo numeri interi
 let userDiceRoll = Math.floor(Math.random() * 6) + 1; // salvo il randomNumberGenerator dell'utente in una variabile
 console.log(userDiceRoll); // loggo il risultato del giocatore in console
 alert("Il risultato del tuo lancio è  " + userDiceRoll + "🎲"); // avviso il giocatore del suo valore attuale
+
 // * creo un let botDiceRoll alla stessa maniera, comunicando al giocatore la giocata del bot
 let botDiceRoll = Math.floor(Math.random() * 6) + 1; // salvo il randomNumberGenerator del computer in una variabile
 console.log(botDiceRoll); // loggo il risultato del computer in console
