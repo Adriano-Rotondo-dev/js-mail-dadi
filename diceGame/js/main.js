@@ -45,11 +45,11 @@ if (userDiceRoll > botDiceRoll) {
   ); // comunico la sconfitta con un alert
 }
 // ? se dovessero pareggiare?
-else if (userDiceRoll === botDiceRoll) {
-  // se user e computer pareggiano
+else {
   console.log(userDiceRoll + " e " + botDiceRoll + " pareggiano "); // loggo in console il pareggio
   alert(
     "🎲 Hai pareggiato! 🎲 \nTu e il tuo avversario avete ottenuto lo stesso risultato!"
-  ); // comunico il pareggio con un alert
-}
+  );
+} // comunico il pareggio con un alert
+
 alert("Vuoi giocare ancora? \nRicarica la pagina! 🎲"); // Want to try again? 🎲
