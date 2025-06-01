@@ -48,8 +48,8 @@ if (userDiceRoll > botDiceRoll) {
 else {
   console.log(userDiceRoll + " e " + botDiceRoll + " pareggiano "); // loggo in console il pareggio
   alert(
-    "🎲 Hai pareggiato! 🎲 \nTu e il tuo avversario avete ottenuto lo stesso risultato!"
-  );
-} // comunico il pareggio con un alert
+    "🎲 Pareggio! 🎲 \nTu e il tuo avversario avete ottenuto lo stesso risultato!"
+  ); // comunico il pareggio con un alert
+} 
 
 alert("Vuoi giocare ancora? \nRicarica la pagina! 🎲"); // Want to try again? 🎲
